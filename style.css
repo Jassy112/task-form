@@ -1,0 +1,111 @@
+*{
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+  font-family: "Roboto", sans-serif;
+  background-image: url(images/pexels-lucadross-31487010.jpg);
+  background-size: cover;
+  background-position: center;
+  overflow: hidden;
+  height: 100vh;            /* full height */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 50%;
+    background-color: white;
+    opacity: 0.85;
+    padding: 40px;             /* space inside the box */
+  border-radius: 10px;  
+}
+h1{
+    color: rgb(36, 36, 36);
+    font-size: 35px;
+    font-weight: 600;
+}
+
+.data{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    margin-bottom: 50px;
+    gap: 10px;
+
+}
+.input-container{
+    display: flex;
+    align-items: center;
+    height: 45px;
+    
+}
+
+i{
+    background-color: rgb(163, 49, 68);
+    color: white;
+    height: 33px;
+    width: 35px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    border-radius: 10px 0 0 10px;
+    
+    
+}
+input{
+    flex: 1;
+    border-radius: 0 10px 10px 0;
+    padding: 7px;
+    border: 1px solid #ccc;
+   border-left: none;     
+   background-color: #ccc ;
+   
+}
+input:hover{
+background-color: rgb(214, 176, 176);
+   
+}
+
+input:focus{
+ outline: none;
+ border-color: rgb(163, 49, 68);
+ border-width: 2px;
+color: rgb(36, 36, 36);
+ 
+}
+
+.signUp,
+.Login{
+    color: white;
+    margin-bottom: 25px;
+    background-color: rgb(163, 49, 68);
+    padding: 8px 75px;
+    border: none;
+    border-radius: 10px 10px;
+    cursor: pointer;
+}
+.signUp:hover{
+    background-color: rgb(36, 36, 36);
+}
+a{
+    color: rgb(163, 49, 68);
+}
+
+.error {
+  color: #b00020;
+  font-size: 12px;
+  margin-top: 4px;
+  display: block;
+}
+

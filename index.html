@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Sign Up</h1>
+      <div class="data">
+        <div class="input-container">
+          <i class="fa-solid fa-user"></i>
+          <input
+            id="firstName"
+            type="text"
+            name="Firstname"
+            placeholder="Firstname"
+          />
+        </div>
+        <span class="error" id="firstNameError"></span>
+        <div class="input-container">
+          <i class="fa-solid fa-inbox"></i>
+          <input id="email" type="email" name="Email" placeholder="Email" />
+        </div>
+        <span class="error" id="emailError"></span>
+        <div class="input-container">
+          <i class="fa-solid fa-lock"></i>
+          <input
+            id="password"
+            type="password"
+            name="Password"
+            placeholder="Password"
+          />
+        </div>
+        <span class="error" id="passwordError"></span>
+        <div class="input-container">
+          <i class="fa-solid fa-lock"></i>
+          <input
+            id="repeatPassword"
+            type="password"
+            name="Repeat-Password"
+            placeholder="Repeat Password"
+          />
+        </div>
+        <span class="error" id="repeatError"></span>
+      </div>
+      <button class="signUp" type="submit">Sign Up</button>
+      <p>
+        Already Have An Account?
+        <a href="login.html">Login</a>
+      </p>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>
