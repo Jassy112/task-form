@@ -30,26 +30,7 @@ body{
     padding: 40px;             /* space inside the box */
   border-radius: 10px;  
 }
-h1{
-    color: rgb(36, 36, 36);
-    font-size: 35px;
-    font-weight: 600;
-}
 
-.data{
-    display: flex;
-    flex-direction: column;
-    margin-top: 20px;
-    margin-bottom: 50px;
-    gap: 10px;
-
-}
-.input-container{
-    display: flex;
-    align-items: center;
-    height: 45px;
-    
-}
 
 i{
     background-color: rgb(163, 49, 68);
